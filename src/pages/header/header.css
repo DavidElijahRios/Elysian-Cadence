@@ -1,0 +1,43 @@
+.nav-bar {
+    background-color: #244964;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.bandName {
+    color: #C7C7C7;
+    font-family: "Phosphate";
+    text-decoration-line: none;
+    font-size: 40px;
+    padding-left: 100px;
+}
+/* Nav links style */
+.nav-links {
+    color: #C7C7C7;
+    list-style: none;
+    margin-right: 100px;
+    font-size: 22px;
+    text-decoration-line: none;
+    font-family: "Phosphate";
+    display: inline-block;
+    position: relative;
+}
+/* nav link style animation when hovering over links */
+.nav-links:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #C7C7C7;
+    transform-origin: center;
+    transition: transform 0.25s ease-out;
+}
+
+.nav-links:hover:after {
+    transform: scaleX(1);
+    transform-origin: center;
+}
