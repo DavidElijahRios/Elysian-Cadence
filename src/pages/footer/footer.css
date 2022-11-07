@@ -5,12 +5,73 @@
     left: 0;
     bottom: 0;
     right: 0;
-    padding: 40px;
-    
+}
 
+.stream-music {
+    background-color: #1E1E1E;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.stream-heading {
+    font-size: 35px;
+    color: #244964;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.stream-links {
+margin-right: 50px;
+}
+
+.link-streamStyle:visited {
+    color:#244964;
 }
 
 .follow-us {
     color: #1E1E1E;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    right: 600px;
 
+}
+
+.social-heading {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+.social-links {
+    margin-right: 25px;
+    position: relative;
+    top: 80px;
+    right: 600px;
+}
+
+.link-socialStyle:visited {
+    color: black;
+}
+
+.EC-logo {
+    position: relative;
+    left: 90%;
+    width: 140px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    bottom: 20px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
 }
