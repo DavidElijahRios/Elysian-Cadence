@@ -19,6 +19,7 @@ export default function Header() {
                 <a className="bandName" href="/"> Elysian Cadence </a>
                 <ul>
                     <Link className="nav-links" to="/">Home</Link>
+                    {/* TODO: Need to figure out how to scroll to section of page */}
                     <Link className="nav-links" to="#music">Music</Link>
                     <Link className="nav-links" to="/shop">Shop</Link>
                     <Link className="nav-links" to="/meetBand">Meet The Band</Link>

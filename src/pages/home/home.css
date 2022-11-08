@@ -1,3 +1,6 @@
+/* TODO: need to create a a scrolling carrousel for music section */
+
+
 h1 {
     color: white;
   }
@@ -5,7 +8,20 @@ h1 {
 p {
     color: white;
 }
+.newRelease {
+   color: #c7c7c7;
+}
 
+.newReleasePic {
+    height: 350px;
+    width: 350px;
+}
+
+.bandHero {
+    height: 900px;
+    width: 100%;
+    opacity: 40%;
+}
 
 #music {
     background-color: #244964;
@@ -13,6 +29,7 @@ p {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-top: 400px;
 }
 
 .single-art {
