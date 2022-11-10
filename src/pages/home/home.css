@@ -10,11 +10,62 @@ p {
 }
 .newRelease {
    color: #c7c7c7;
+   margin: 150px 0px 200px 0px;
+}
+
+.newReleaseHeader {
+    position: relative;
+    left: 500px;
+    margin: 30px 0px 60px 0px;
 }
 
 .newReleasePic {
     height: 350px;
     width: 350px;
+    position: relative;
+    left: 500px;
+}
+/* new release button positioning */
+.newReleaseBtn {
+    position: relative;
+    left: 1000px;
+    bottom: 388px;
+    display: flex;
+    flex-direction: column;
+    width: 90px;
+    align-items: center;
+}
+/* new release button styling for each individual button */
+.rSpotifyBtn {
+    margin-bottom: 30px;
+    padding: 10px 20px 10px 15px;
+    border-radius: 10px;
+    background-color: #1DB954;
+    opacity: 85%;
+}
+
+.rAppleBtn {
+    margin-bottom: 30px;
+    padding: 10px 20px 10px 15px;
+    border-radius: 10px;
+    background-color: #fc3c44;
+    opacity: 85%;
+}
+
+.rAmazonBtn {
+    margin-bottom: 30px;
+    padding: 10px 20px 10px 15px;
+    border-radius: 10px;
+    background-color: #04AEC4;
+    opacity: 85%;
+}
+
+.rYoutubeBtn {
+    margin-bottom: 30px;
+    padding: 10px 20px 10px 15px;
+    border-radius: 10px;
+    background-color: #FF0000;
+    opacity: 85%;
 }
 
 .bandHero {

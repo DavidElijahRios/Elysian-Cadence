@@ -17,7 +17,7 @@ export default function Footer() {
             <div className="stream-music">
                <h2 className="stream-heading">Stream Now</h2>
                <ul>
-                <a className="link-streamStyle" href="https://open.spotify.com/artist/2WSJZ9lECbhhlgEYgbaYur" target="_blank"><FontAwesomeIcon className="stream-links" icon={faSpotify} size="3x" /></a>
+                <a className="link-streamStyle" href="https://open.spotify.com/artist/2WSJZ9lECbhhlgEYgbaYur" target="_blank"><FontAwesomeIcon className="stream-links" icon={faSpotify} size="3x"/></a>
                 <a className="link-streamStyle" href="https://music.apple.com/us/artist/elysian-cadence/1525863795" target="_blank"><FontAwesomeIcon className="stream-links" icon={faApple} size="3x" /></a>
                 <a className="link-streamStyle" href="https://music.amazon.com/artists/B08F2K5CPH/elysian-cadence" target="_blank"><FontAwesomeIcon className="stream-links" icon={faAmazon} size="3x" /></a>
                 <a className="link-streamStyle" href="https://www.youtube.com/channel/UCC39Tu9VSEJX4akP2hi-0gQ" target="_blank"><FontAwesomeIcon className="stream-links" icon={faYoutube} size="3x" /></a>
