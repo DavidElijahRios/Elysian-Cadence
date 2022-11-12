@@ -83,10 +83,21 @@ p {
     margin-top: 400px;
 }
 
+.music-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.music-item {
+    
+}
+
 .single-art {
     height: 250px;
     width: 250px;
     margin-right: 100px;
     position: relative;
     bottom: 25px;
+    transition: 1s;
 }
