@@ -17,6 +17,7 @@ p {
     position: relative;
     left: 500px;
     margin: 30px 0px 60px 0px;
+    width: fit-content;
 }
 
 .newReleasePic {
@@ -99,5 +100,5 @@ p {
     margin-right: 100px;
     position: relative;
     bottom: 25px;
-    transition: 1s;
+    transition: 0.5s;
 }

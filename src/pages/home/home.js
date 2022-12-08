@@ -14,6 +14,7 @@ import { faSpotify, faApple, faAmazon, faYoutube } from '@fortawesome/free-brand
 // TODO: also need to have pictures clickable to take you to music page
 // TODO: add links to clickable buttons to visit song release
 // !Fix transitions of pictures!
+// ?PLAN: I may switch auto carousel idea to scrollable slide show with animation to opaque album art section with a button to switch to music page and create a full out music page
 
 
 // const data = [ aeona, revelation, brokenMachine, keepOn ]
@@ -38,7 +39,7 @@ import { faSpotify, faApple, faAmazon, faYoutube } from '@fortawesome/free-brand
 
 export default function Home() {
 
-    const data = [ aeona, revelation, brokenMachine, keepOn ]
+    const data = [ aeona, revelation, brokenMachine, keepOn]
         const [ currentIndex, setCurrentIndex ] = useState(0)
            const scroll = () => {
                 if(currentIndex === data.length-1) {
@@ -48,9 +49,9 @@ export default function Home() {
                 }
            }
            useEffect(() => {
-            const interval = setInterval(() => {scroll()}, 1000)
+            const interval = setTimeout(() => {scroll()}, 1000)
     
-            return () => clearInterval(interval)})
+            return () => clearTimeout(interval)})
     
 
 
@@ -78,7 +79,7 @@ export default function Home() {
                         {/* mapping through Data so that i can display all available album releases in data Array */}
                         { data.map((item, index) => {
                             return (
-                                <img className="single-art" style={{transform: `translate(-${currentIndex * 200}%)`}} src={item} alt="photo" />
+                                <img className="single-art" style={{transform: `translate(-${currentIndex}%)`}} src={item} alt="photo" />
                             ) 
                         })}
                         {/* <div className="music-item">

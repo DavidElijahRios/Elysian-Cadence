@@ -1,5 +1,7 @@
 .nav-bar {
+    /* border-style: solid; */
     background-color: #244964;
+    /* border-width: 10px; */
     display: flex;
     justify-content: space-between;
     padding: 30px;
