@@ -58,7 +58,7 @@ export default function Home() {
 
     return (
         <div>
-            <h1>Test Test </h1>
+            <img className="bandHero" src={hero} alt="band picture" />
             <div className="newRelease">
                 <h2 className="newReleaseHeader">"KEEP ON" AVAILABLE NOW</h2>
                 <img className="newReleasePic" src={keepOn} alt="song picture" />
@@ -69,8 +69,7 @@ export default function Home() {
                     <button className="rYoutubeBtn"><FontAwesomeIcon icon={faYoutube} size="2x" />Youtube</button>
                 </ul>
             </div>
-            <p> Need to add white space here</p>
-                <img className="bandHero" src={hero} alt="band picture" />
+                
                 {/* Music Carousel will go here */}
             <div id="music">
                 <h2> Music </h2>
