@@ -74,25 +74,62 @@ p {
     width: 100%;
     opacity: 40%;
 }
+/* The rule that will control the animation of the carousal */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 4));
+    }
+}
 
-#music {
+#music-slider {
     background-color: #244964;
+    margin-top: 400px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+.music-header{
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 400px;
+    padding: 25px 0px 40px 0px
 }
 
-.music-container {
-    margin-top: 30px;
+#music-slider::before,
+#music-slider::after {
+    background: linear-gradient(to right, white 0%, blue 100%);
+    content: "";
+    height: 250px;
+    width: 250px;
+    z-index: 2;
+}
+#music-slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+  }
+  
+  #music-slider::before {
+    left: 0;
+    top: 0;
+  }
+
+#music-slider .music-slideTrack {
+    animation: scroll 30s linear infinite;
+    display: flex;
+    width: calc(250px * 8);
+}
+
+.music-slideTrack {
+    display: flex;
+    justify-content: center;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
-.music-item {
-    
-}
 
 .single-art {
     height: 250px;

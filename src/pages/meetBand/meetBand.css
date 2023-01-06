@@ -27,7 +27,7 @@
     font-size: 45px;
     margin: 150px 0px 200px 0px;
 }
-/* !Left off here need to finish styling  */
+/* !Left off here need to finish styling Still need to finish styling and adding photos */
 
 .nameR {
     color: white;
@@ -35,7 +35,10 @@
     justify-content: center;
     position: relative;
     top: 200px;
-    left: 300px;
+    left: 900px;
+    width: fit-content;
+    margin: 0;
+    text-align: center;
     font-size: 25px;
     font-family: 'Pacifico', cursive;
 }
