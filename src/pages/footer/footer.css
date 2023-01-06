@@ -1,7 +1,6 @@
 /* Needed to get footer to stay at bottom of page. footer was appearing in the center of page */
 .footer-nav{
     background-color: #8B9BAD;
-    position: absolute;
     left: 0;
     bottom: 0;
     right: 0;

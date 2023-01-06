@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    font-size: 45px;
+}
+
+/* Styling for Bio Paragraph */
+.bio-description {
+    text-align: center;
+    margin-bottom: 250px;
+}
+
+.bandBackground {
+        height: 900px;
+        width: 100%;
+        opacity: 40%;
+}
+
+.members {
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    margin: 150px 0px 200px 0px;
+}
+/* !Left off here need to finish styling Still need to finish styling and adding photos */
+
+.nameR {
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+    left: 900px;
+    width: fit-content;
+    margin: 0;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+}
+
+.nameL {
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+    right: 300px;
+    font-size: 25px;
+}
+
+.profilepicR {
+   width: 500px;
+   height: 600px;
+   position: relative;
+   left: 100px;
+   border-radius: 10px;
+   margin-bottom: 250px;
+
+}
+.profilepicL {
+    width: 500px;
+    height: 600px;
+    position: relative;
+    left: 1100px;
+    border-radius: 10px;
+    margin-bottom: 250px;
+}

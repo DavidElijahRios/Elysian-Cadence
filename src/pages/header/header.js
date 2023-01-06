@@ -2,7 +2,7 @@
 import React from "react";
 // need to bring in styles sheet
 import "./header.css";
-// TODO: May need to import link from react-router-dom for it to be a clickable link
+
 import { Link } from "react-router-dom";
 // Brining in material Ui components for design
 
@@ -19,7 +19,8 @@ export default function Header() {
                 <a className="bandName" href="/"> Elysian Cadence </a>
                 <ul>
                     <Link className="nav-links" to="/">Home</Link>
-                    <Link className="nav-links" to="#music">Music</Link>
+                    {/* TODO: Need to figure out how to scroll to section of page */}
+                    <Link className="nav-links" to="/music">Music</Link>
                     <Link className="nav-links" to="/shop">Shop</Link>
                     <Link className="nav-links" to="/meetBand">Meet The Band</Link>
                     <Link className="nav-links" to="/contact">Contact</Link>

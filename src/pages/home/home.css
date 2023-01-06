@@ -1,3 +1,6 @@
+/* TODO: need to create a a scrolling carrousel for music section */
+
+
 h1 {
     color: white;
   }
@@ -5,15 +8,128 @@ h1 {
 p {
     color: white;
 }
+.newRelease {
+   color: #c7c7c7;
+   margin: 150px 0px 200px 0px;
+}
 
+.newReleaseHeader {
+    position: relative;
+    left: 500px;
+    margin: 30px 0px 60px 0px;
+    width: fit-content;
+}
 
-#music {
-    background-color: #244964;
+.newReleasePic {
+    height: 350px;
+    width: 350px;
+    position: relative;
+    left: 500px;
+}
+/* new release button positioning */
+.newReleaseBtn {
+    position: relative;
+    left: 1000px;
+    bottom: 388px;
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    width: 90px;
     align-items: center;
 }
+/* new release button styling for each individual button */
+.rSpotifyBtn {
+    margin-bottom: 30px;
+    padding: 10px 20px 10px 15px;
+    border-radius: 10px;
+    background-color: #1DB954;
+    opacity: 85%;
+}
+
+.rAppleBtn {
+    margin-bottom: 30px;
+    padding: 10px 20px 10px 15px;
+    border-radius: 10px;
+    background-color: #fc3c44;
+    opacity: 85%;
+}
+
+.rAmazonBtn {
+    margin-bottom: 30px;
+    padding: 10px 20px 10px 15px;
+    border-radius: 10px;
+    background-color: #04AEC4;
+    opacity: 85%;
+}
+
+.rYoutubeBtn {
+    margin-bottom: 30px;
+    padding: 10px 20px 10px 15px;
+    border-radius: 10px;
+    background-color: #FF0000;
+    opacity: 85%;
+}
+
+.bandHero {
+    height: 900px;
+    width: 100%;
+    opacity: 40%;
+}
+/* The rule that will control the animation of the carousal */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 4));
+    }
+}
+
+#music-slider {
+    background-color: #244964;
+    margin-top: 400px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+.music-header{
+    display: flex;
+    justify-content: center;
+    padding: 25px 0px 40px 0px
+}
+
+#music-slider::before,
+#music-slider::after {
+    background: linear-gradient(to right, white 0%, blue 100%);
+    content: "";
+    height: 250px;
+    width: 250px;
+    z-index: 2;
+}
+#music-slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+  }
+  
+  #music-slider::before {
+    left: 0;
+    top: 0;
+  }
+
+#music-slider .music-slideTrack {
+    animation: scroll 30s linear infinite;
+    display: flex;
+    width: calc(250px * 8);
+}
+
+.music-slideTrack {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 
 .single-art {
     height: 250px;
@@ -21,4 +137,5 @@ p {
     margin-right: 100px;
     position: relative;
     bottom: 25px;
+    transition: 0.5s;
 }
