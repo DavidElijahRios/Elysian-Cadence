@@ -24,6 +24,10 @@
 margin-right: 50px;
 }
 
+.link-streamStyle{
+    color: #244964
+}
+
 .link-streamStyle:visited {
     color:#244964;
 }
@@ -48,6 +52,7 @@ margin-right: 50px;
 }
 
 .social-links {
+    color: black;
     margin-right: 25px;
     position: relative;
     top: 80px;

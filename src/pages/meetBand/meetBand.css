@@ -1,72 +1,177 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
 
 
 
 .header {
+    color: #c7c7c7;
     display: flex;
     justify-content: center;
-    margin-top: 250px;
-    font-size: 45px;
+    margin-top: 200px;
+    font-size: 76px;
+    font-family: 'Roboto Slab', serif;
 }
 
 /* Styling for Bio Paragraph */
 .bio-description {
+    color: white;
     text-align: center;
-    margin-bottom: 250px;
+    margin: 0px 30px 250px 30px;
+    font-size: 32px;
 }
 
 .bandBackground {
-        height: 900px;
+        height: 1020px;
         width: 100%;
-        opacity: 40%;
+        opacity: 90%;
 }
 
 .members {
+    color: #c7c7c7;
     display: flex;
     justify-content: center;
-    font-size: 45px;
-    margin: 150px 0px 200px 0px;
+    font-size: 76px;
+    margin: 700px 0px 450px 0px;
+    font-family: 'Roboto Slab', serif;
 }
 /* !Left off here need to finish styling Still need to finish styling and adding photos */
 
+/* Davids Styling */
 .nameR {
+    color: white;
+    position: relative;
+    top: 200px;
+    left: 900px;
+    width:fit-content;
+    margin: 0;
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+}
+.titleR {
+    color: white;
+    position: relative;
+    top: 200px;
+    left: 872px;
+    width: fit-content;
+    margin: 0;
+    font-size: 28px;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* Sarina's Styling */
+.nameLS {
     color: white;
     display: flex;
     justify-content: center;
+    position: relative;
+    margin: 0;
+    top: 200px;
+    right: 200px;
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.titleLS {
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+    left: 552px;
+    width: fit-content;
+    margin: 0;
+    font-size: 28px;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+/*  Erik Styling */
+.nameRE {
+    color: white;
+    position: relative;
+    top: 200px;
+    left: 900px;
+    width: fit-content;
+    margin: 0;
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+}
+.titleRE {
+    color: white;
+    position: relative;
+    top: 200px;
+    left: 868px;
+    width: fit-content;
+    margin: 0;
+    font-size: 28px;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* Diego's Styling */
+.nameL {
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 0;
+    top: 200px;
+    right: 200px;
+    text-align: right;
+    font-size: 40px;
+}
+
+.titleL {
+    color: white;
+    position: relative;
+    top: 200px;
+    left: 472px;
+    width: fit-content;
+    margin: 0;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* Victor's Styling */
+.nameRV {
+    color: white;
     position: relative;
     top: 200px;
     left: 900px;
     width: fit-content;
     margin: 0;
     text-align: center;
-    font-size: 25px;
-    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
 }
-
-.nameL {
+.titleRV {
     color: white;
-    display: flex;
-    justify-content: center;
     position: relative;
     top: 200px;
-    right: 300px;
-    font-size: 25px;
+    left: 1008px;
+    width: fit-content;
+    margin: 0;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Roboto Slab', serif;
 }
 
 .profilepicR {
-   width: 500px;
-   height: 600px;
-   position: relative;
-   left: 100px;
-   border-radius: 10px;
-   margin-bottom: 250px;
-
-}
-.profilepicL {
     width: 500px;
-    height: 600px;
+    height: 700px;
     position: relative;
-    left: 1100px;
+    left: 100px;
     border-radius: 10px;
     margin-bottom: 250px;
-}
+ 
+ }
+ .profilepicL {
+     width: 500px;
+     height: 700px;
+     position: relative;
+     left: 1050px;
+     border-radius: 10px;
+     margin-bottom: 250px;
+ }
+ 
