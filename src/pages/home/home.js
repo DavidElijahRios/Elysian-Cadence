@@ -16,21 +16,23 @@ import { faSpotify, faApple, faAmazon, faYoutube } from '@fortawesome/free-brand
 
 export default function Home() {
 
-// !Need to connect button with links
+// !Need to connect button with links Left off here!! 6.3.23
 
     return (
         <div>
             <img className="bandHero" src={hero} alt="band picture" />
             <div className="newRelease">
+                {/* Section below is Hero section for editing */}
                 <h2 className="newReleaseHeader">"NEW HORIZON" AVAILABLE NOW</h2>
                 <img className="newReleasePic" src={NewHorizon} alt="song picture" />
                 <ul className="newReleaseBtn">
                     <a href="https://open.spotify.com/track/4x6dtVEq5MF5FA6n6SUZi9?si=5c3264eb26e34eaa" target="_blank"><button className="rSpotifyBtn"><FontAwesomeIcon icon={faSpotify} size="2x" />Spotify</button></a>
-                    <button className="rAppleBtn"><FontAwesomeIcon icon={faApple} size="2x" />Music</button>
-                    <button className="rAmazonBtn"><FontAwesomeIcon icon={faAmazon} size="2x" />Amazon Music</button>
-                    <button className="rYoutubeBtn"><FontAwesomeIcon icon={faYoutube} size="2x" />Youtube</button>
+                    <a href="https://music.apple.com/us/album/new-horizon/1660886339?i=1660886340" target="_blank"><button className="rAppleBtn"><FontAwesomeIcon icon={faApple} size="2x" />Music</button></a>
+                    <a href="https://music.amazon.com/albums/B0BQQYXQMS?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_XkGT3Mk6UNexRVwW5q8OLlgBe" target="_blank"><button className="rAmazonBtn"><FontAwesomeIcon icon={faAmazon} size="2x" />Amazon Music</button></a>
+                    <a href="https://youtu.be/shrLYTfXkpc" target="_blank"><button className="rYoutubeBtn"><FontAwesomeIcon icon={faYoutube} size="2x" />Youtube</button></a>
                 </ul>
             </div>
+            {/* End of Hero Section */}
             <div id="music-slider">
                 <h2 className="music-header"> Music </h2>
                 <div className="music-slideTrack">

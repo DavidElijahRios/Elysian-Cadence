@@ -1,1 +1,28 @@
 
+.body {
+    background-image: url("../../images/contactUs.JPG");
+    background-size: cover;
+    height: 1800px;
+}
+
+.body::before {
+    opacity: 30%;
+}
+
+.container1 {
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    border-width: 10px;;
+    height: 120px;
+    width: 575px;
+    position: relative;
+    left: 540px;
+    top: 150px;
+}
+
+.header {
+    margin: 0;
+    color: white;
+    font-size: 90px;
+}
